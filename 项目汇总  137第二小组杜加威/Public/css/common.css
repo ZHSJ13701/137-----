@@ -1,0 +1,45 @@
+body{
+	font-size: 16px;
+	font-family: "微软雅黑",Helvetica,Arial,sans-serif ! important;
+	background: #f3f3f3 ! important;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	cursor: pointer;
+}
+.color-red{
+	background: #EF7778;
+}
+.word-red{
+	color:#e85253 ! important;
+}
+.nav-define{
+	height: 50px;
+    background: #53cac3;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.nav-define .navbar-header{
+	margin-left: 200px ! important;
+}
+.nav-define .navbar-right{
+	margin-right: 50px ! important;
+}
+.nav-define .navbar-center{
+	margin:auto;
+}
+.nav-define a{
+	color:#fff;
+	font-size: 16px;
+}
+.nav-define a img{
+	margin-top: -5px;
+}
+.nav-define .nav li a:hover,.nav-define .nav li a:focus{
+	background: #00C2B8;
+	color:#fff;
+}
