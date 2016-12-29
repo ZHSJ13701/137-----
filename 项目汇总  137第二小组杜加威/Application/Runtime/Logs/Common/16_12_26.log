@@ -1,0 +1,48 @@
+[ 2016-12-26T17:21:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/bootstrap-3.3.0/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Bootstrap-3.3.0
+
+[ 2016-12-26T17:21:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/js/jquery.1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Js
+
+[ 2016-12-26T17:21:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/images/dd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-26T17:21:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/images/aa.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-26T17:22:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/bootstrap-3.3.0/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Bootstrap-3.3.0
+
+[ 2016-12-26T17:22:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/js/jquery.1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Js
+
+[ 2016-12-26T17:22:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/images/aa.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-26T17:22:30+08:00 ] ::1 /1226/thinkphp_3.2.3_full/images/dd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
