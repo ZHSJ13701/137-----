@@ -10,7 +10,11 @@
 		.show_div{display: block !important;}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		.change_box{position: relative;bottom: 28px;margin-left: 45%}
+=======
+		.change_box{position: relative;bottom: 28px;left: 45%}
+>>>>>>> e26aa16bb5703c1a8c01190b1d8ecb8524c85bc1
 =======
 		.change_box{position: relative;bottom: 28px;left: 45%}
 >>>>>>> e26aa16bb5703c1a8c01190b1d8ecb8524c85bc1
