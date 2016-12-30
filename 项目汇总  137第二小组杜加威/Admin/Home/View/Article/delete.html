@@ -1,0 +1,21 @@
+<!DCOTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>操作结果</title>
+</head>
+<body>
+	<div style="text-align: center;">
+	<a href="{:U('index')}">{$ret}! please click return!</a>
+	</div>
+	<script type="text/javascript">
+		function jump(){
+			<eq name="ret" value="error">
+				alert("操作不成功！请重试！");
+			</eq>
+			window.location.href = "{:U('index')}";
+		}
+		setTimeout(jump(), 5000);
+	</script>
+</body>
+</html>
