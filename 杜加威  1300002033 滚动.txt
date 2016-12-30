@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>澳视教育</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../../../../Public/css/bootstrap-3.3.0/css/bootstrap.min.css">
+	<style type="text/css">
+		.banner_box{position: relative; }
+		.banner_box img{width: 100%;display: none;}
+		.show_div{display: block !important;}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+		.change_box{position: relative;bottom: 28px;margin-left: 45%}
+=======
+		.change_box{position: relative;bottom: 28px;left: 45%}
+>>>>>>> e26aa16bb5703c1a8c01190b1d8ecb8524c85bc1
+=======
+		.change_box{position: relative;bottom: 28px;left: 45%}
+>>>>>>> e26aa16bb5703c1a8c01190b1d8ecb8524c85bc1
+=======
+		.change_box{position: relative;bottom: 28px;left: 45%}
+>>>>>>> e26aa16bb5703c1a8c01190b1d8ecb8524c85bc1
+		.change_box li{background-color: #fff;
+		float: left; width: 10px;height: 10px;margin-right: 5px;}
+
+		.i_btn{display:block;width:34px;height:80px;position:absolute;top:180px;z-index:3;background-image:url(../../../../Public/images/a_l.png);}
+		.prev_L{left:65px;background-position:0 0;}
+		.next_R{right:65px;background-position:-34px 0;}
+	</style>
+</head>
+<body>
+<div class="container">
+		<div class="row">
+			<div class="banner_box">
+				<a tip="0" class="i_btn prev_L"></a>
+				<a tip="1" class="i_btn next_R"></a>
+				<div>
+				<!-- 第一张图片 -->
+					<img class="show_div" src="../../../../Public/images/aa.png"></div>		
+				<div>
+					<img src="../../../../Public/images/dd.png"></div>
+				<div>
+					<img src="../../../../Public/images/aa.png"></div>			
+				<div>
+					<img src="../../../../Public/images/dd.png"></div>
+			</div>
+			<ul class="change_box">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="../../../../Public/js/jquery.1.11.1.min.js"></script>
+<script type="text/javascript">
+	var temp = 0;
+	var T;
+	var speed = 5000;
+
+	$(function  () {
+		$(".change_box li").click(function  () {//方框切换
+			clearInterval(T);
+			$(".show_div").removeClass('show_div');
+			temp = $(this).index();
+			switch($(this).index()){
+				case 0:
+					$(".banner_box div").eq(0).find('img').addClass("show_div");break;
+				case 1: 
+					$(".banner_box div").eq(1).find('img').addClass("show_div");break;
+				case 2: 
+					$(".banner_box div").eq(2).find('img').addClass("show_div");break;
+				case 3: 
+					$(".banner_box div").eq(3).find('img').addClass("show_div");break;
+				default: break;
+			}
+			setTime();						
+		})
+	});
+
+	var length = document.getElementsByClassName('change_box')[0].getElementsByTagName('li').length;
+	$(function(){
+		$(".banner_box a").click(function(){//箭头切换
+			clearInterval(T);
+			$(".show_div").removeClass('show_div');
+			var tip=$(this).attr("tip");
+			if(tip == 0){
+				temp= temp-1;
+			}else{
+				temp= temp +1;
+			}
+			if(temp == length) temp = 0;
+			if(temp < 0) temp = length -1;
+			switch(temp){
+				case 0:
+					$(".banner_box div").eq(0).find('img').addClass("show_div");break;
+				case 1: 
+					$(".banner_box div").eq(1).find('img').addClass("show_div");break;
+				case 2: 
+					$(".banner_box div").eq(2).find('img').addClass("show_div");break;
+				case 3: 
+					$(".banner_box div").eq(3).find('img').addClass("show_div");break;
+				default: break;
+			}	
+			setTime();
+		})
+	});
+
+	function settemp(){
+	     temp=temp+1;
+	     if(temp == length){
+		 	temp=0;  
+		 }
+	   }
+
+	function turnimage(num){
+		$(".show_div").removeClass('show_div');
+		switch(num){
+			case 0:
+				$(".banner_box div").eq(0).find('img').addClass("show_div");break;
+			case 1: 
+				$(".banner_box div").eq(1).find('img').addClass("show_div");break;
+			case 2: 
+				$(".banner_box div").eq(2).find('img').addClass("show_div");break;
+			case 3: 
+				$(".banner_box div").eq(3).find('img').addClass("show_div");break;
+			default: break;
+		}	
+	}
+	
+	clearInterval(T);
+	T= setInterval(function(){
+	 settemp();
+	 turnimage(temp);
+	 },speed);
+
+	function setTime(){
+		T= setInterval(function(){
+		 settemp();
+		 turnimage(temp);
+		 },speed);
+	}
+</script>
+
+</body>
+</html>

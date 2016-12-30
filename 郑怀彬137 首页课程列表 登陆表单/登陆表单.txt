@@ -1,0 +1,20 @@
+<form class="bform" name="bform" method="post" action="">
+		      <div class="table" style="margin-top:100px;left:50%;top:50%;">
+		        <div class="tr">
+		            <div class="td td_text"><label for="txtname">’À∫≈£∫</label></div>
+		            <div class="td"><input id="txtname" type="text" name="username" placeholder="id" required /></div>
+		        </div>
+		        <div class="tr">
+		            <div class="td td_text"><label for="txtpwd">√‹¬Î£∫</label></div>
+		            <div class="td"><input id="txtpwd" type="password" name="password" placeholder="password" required /></div>
+		        </div>
+		        <div class="tr">
+		        	<div class="td"></div>
+		            <div class="td td_submit">
+		                <input type="submit" value="Log In" name="bsubmit">
+		                &nbsp;&nbsp;
+		                <input type="submit" value="Reg In" name="bsubmit">
+		            </div>
+		        </div>
+		      </div>     
+			</form>

@@ -1,0 +1,52 @@
+<html>		
+<style type="text/css">
+		.colsum { width: 65%; }
+		.table>tbody>tr{margin-top: 10px; }
+		.table>tbody>.tr_settop>td{ border-top: 0;}
+		.table>tbody>tr>.td_settop{color:#0aac87;}
+
+		.table>tbody>tr>td>a{ color: #000000; }
+		.table>tbody>tr>.td_active>a{ color:#00876b; }
+
+
+</style>
+<body>
+<div class="row">
+			<h1>课程一览表</h1>
+			<table class="table">
+				<tr>
+					<td class="td_settop">大类</td>
+					<td class="td_active"><a href="#">全部</a></td>
+					<td><a href="#">创新创业</a></td>
+					<td><a href="#">生活与化学</a></td>
+					<td class="colsum"></td>					
+				</tr>
+				<tr class="tr_settop">
+					<td class="td_settop">小类</td>
+					<td class="td_active"><a href="#">全部</a></td>
+					<td></td>
+					<td></td>
+					<td class="colsum"></td>					
+				</tr>				
+			</table>
+		</div>
+
+
+		<div class="row second_head_box1">
+			<!-- 栅格化12个格子 -->
+			<div class="col-md-9 menu_box" >
+				<ul class="nav_box set_newnavbox">
+					<li class="active1">
+						<a href="#">人气</a>
+					</li>
+					<li>
+						<a href="#">价格</a>
+					</li>
+					<li>
+						<a href="#">最新</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+</body>
+</html>
