@@ -1,1 +1,0 @@
-var mainNavV=$('.main-nav').position().top;$(window).scroll(function(){fixedMainNav(mainNavV);});function fixedMainNav(mainNavV){var scrollV=$(document).scrollTop();if(scrollV>mainNavV){$('.main-nav').addClass('fixed-main-nav');}else{$('.main-nav').removeClass('fixed-main-nav');}}
